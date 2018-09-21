@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Page</title>
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+<body>
+<input type='checkbox' id='form-switch'>
+<form id='login-form' action="/login" method='post'>
+    <input type="text" placeholder="Username" name="username" required>
+    <input type="password" placeholder="Password" name="password" required>
+    <button type='submit'>Login</button>
+    <label for='form-switch'><span>Register</span></label>
+</form>
+<form id='register-form' action="/register" method='post'>
+    <input type="text" placeholder="Username" name="username" required>
+    <input type="email" placeholder="Email" name="email" required>
+    <input type="password" placeholder="Password" name="password" required>
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Contact No." name="contact_detail" required>
+    <button type='submit'>Register</button>
+    <label for='form-switch'>Already Member ? Sign In Now..</label>
+</form>
+</body>
+</html>
